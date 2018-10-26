@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 app.use((req, res, next) => {
     res.render('maintenance.hbs', {
         title: 'Maintenance Page',
-        maintenanceMessage: 'We will be right back!'
+        maintenanceMessage: 'Working on the page. We will be right back!'
     });
 })
 
